@@ -1,0 +1,59 @@
+{
+  "name": "Shorthand Demo Theme",
+  "description": "Basic theme with a combination of light and dark sections.",
+  "thumbnail": "/assets/thumb.png",
+  "organisations": [
+    "public"
+  ],
+  "parent": "../0-base",
+  "logos": [
+    {
+      "bigFile": "/assets/logo.png",
+      "smallFile": "/assets/logo.png",
+      "href": "https://shorthand.com/",
+      "alt": "Shorthand",
+      "target": "_blank",
+      "nofollow": true
+    }
+  ],
+  "headIncludes": {
+    "link": [
+      {
+        "rel": "icon",
+        "type": "image/png",
+        "href": "//media.shorthand.com/themes/0-demo/assets/favicon.png"
+      },
+      {
+        "rel": "stylesheet",
+        "type": "text/css",
+        "href": "https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i|PT+Serif:400,400i,700,700i"
+      }
+    ],
+    "script": [
+      {
+        "src": "//use.typekit.net/wqj3yog.js"
+      },
+      {
+        "innerHTML": "try{Typekit.load();}catch(e){}"
+      }
+    ]
+  },
+  "snippets": [
+    {
+      "selector": ".Theme-Story",
+      "method": "append",
+      "file": "./snippets/demo-strap.html",
+      "_file": "themes/0-demo/snippets/demo-strap.html",
+      "args": [
+        "<div class='upsell preview'>\n  <div class='upsell-container'>\n    <div class='shorthand-logo'></div>\n    <h2>This is only a preview. <em>Start publishing!</em></h2>\n    <a href='https://shorthand.com/enquiry' class='btn btn-primary' target='_blank'>Enquire now</a>\n  </div>\n</div>\n\n<div class='section-upsell upsell'>\n  <div class='upsell-container'>\n    <div class='shorthand-logo'>\n    </div>\n    <h2>This is only a preview. <br/>\n    <em>Start publishing!</em></h2>\n    <p><strong>Subscribe now to begin publishing your Shorthand stories.</strong> All plans offer flexible hosting options, best-practice training &amp; online support.</p>\n    <a href='https://shorthand.com/enquiry' class='btn btn-primary' target='_blank'>Enquire now</a>\n\n    <div class='brands-container'>\n      <h5>As used by</h5>\n      <ul class='brands flex'>\n        <li class='brand bbc'>BBC</li>\n        <li class='brand hearst'>Hearst Magazines</li>\n        <li class='brand guardian'>Guardian</li>\n        <li class='brand tele'>Telegraph</li>\n        <li class='brand stc'>Save The Children</li>\n        <li class='brand abc'>ABC</li>\n        <li class='brand trinity'>Trinity Mirror</li>\n        <li class='brand fairfax'>Fairfax Media</li>\n        <li class='brand haymarket'>Haymarket</li>\n      </ul>\n    </div>\n  </div>\n</div>"
+      ]
+    }
+  ],
+  "sectionVariantDefaults": {
+    "Text": "Light",
+    "BackgroundScrollmation": "Dark",
+    "TwoColumnScrollmation": "Light",
+    "Media": "Light"
+  },
+  "_sourceHash": "4d0b31e3a94554801c4c6ef9f067c107"
+}
